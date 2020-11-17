@@ -1,14 +1,21 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://World/Bush.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World/GrassBackground.png" type="Texture" id=3]
 
 [node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+offset = Vector2( 160, 90 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 320, 180 )
 
 [node name="YSort" type="YSort" parent="."]
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 96.7191, 27.1771 )
+position = Vector2( 299.652, 168.758 )
 
 [node name="Bush" parent="YSort" instance=ExtResource( 1 )]
 position = Vector2( 38.5906, 115.624 )
