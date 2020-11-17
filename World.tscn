@@ -9,7 +9,10 @@
 position = Vector2( 96.7191, 27.1771 )
 
 [node name="Bush" parent="." instance=ExtResource( 1 )]
-position = Vector2( 14.0499, 13.6857 )
+position = Vector2( 25.3764, 36.3387 )
+
+[node name="Bush4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 193.386, 86.364 )
 
 [node name="Bush2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 112.828, 83.0974 )
