@@ -54,6 +54,7 @@ func move_state(delta):
 		
 		
 		if Input.is_action_just_pressed("roll"):
+			PlayerStats.max_health -= 1
 			state = ROLL
 	else:
 		animationState.travel("Idle")
