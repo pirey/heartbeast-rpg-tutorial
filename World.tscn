@@ -517,13 +517,13 @@ position = Vector2( 38.5906, 115.624 )
 position = Vector2( 233.045, 123.402 )
 
 [node name="Bush4" parent="YSort/Bushes" instance=ExtResource( 1 )]
-position = Vector2( 209.118, 60.1436 )
+position = Vector2( 163.561, 21.4732 )
 
 [node name="Bush2" parent="YSort/Bushes" instance=ExtResource( 1 )]
 position = Vector2( 112.828, 83.0974 )
 
 [node name="Bush3" parent="YSort/Bushes" instance=ExtResource( 1 )]
-position = Vector2( 229.627, 47.7241 )
+position = Vector2( 238.103, 21.2375 )
 
 [node name="Grass" type="YSort" parent="YSort"]
 
